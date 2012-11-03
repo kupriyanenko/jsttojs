@@ -35,7 +35,9 @@
 
 <p>A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file.</p>
 
-<p>You can to precompile some static mustache, hogan.js, jQuery.tmpl, underscore.js or any other templates and include them in generated javascript function that could be Stitched and compressed in a single file.</p>
+<p>You can to precompile some static mustache, hogan.js, jQuery.tmpl, underscore.js or any other templates and include them in generated javascript function that could be stitched and compressed in a single file.</p>
+
+<p>And if you set the flag --watch, you can compile templates automatically!</p>
 
 <h2>Installation</h2>
 
@@ -55,10 +57,11 @@ Options:
   -V, --version     output the version number
   -e, --ext &lt;n&gt;     extension for templates, default "jst"
   -n, --name &lt;n&gt;    name variable stores temapltes, default "JSTmpl"
+  -w, --watch       watch files and automatic compile output file
 
 Examples:
 
-  $ jsttojs templates/ compiled/templates/index.js --ext mustache
+  $ jsttojs templates compiled/templates/index.js --ext mustache --watch
 </code></pre>
 
 <h2>Samples</h2>
@@ -76,7 +79,7 @@ Examples:
 
 <p>Run precompile templates</p>
 
-<pre><code>$ jsttojs templates/ compiled/templates/index.js --name MyGlobalVariable
+<pre><code>$ jsttojs templates compiled/templates/index.js --name MyGlobalVariable
 </code></pre>
 
 <p>Output:</p>
