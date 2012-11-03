@@ -3,13 +3,15 @@
   "version": "0.0.2",
   "description": "A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file",
   "preferGlobal": "true",
+  "homepage": "http://upwards.github.com/jsttojs/",
   "main": "index",
   "bin": {
     "jsttojs": "bin/jsttojs"
   },
   "author": {
     "name": "Alexey Kupriyanenko",
-    "email": "a.kupriyanenko@gmail.com"
+    "email": "a.kupriyanenko@gmail.com",
+    "url": "http://lifeprom.com"
   },
   "licenses": [
     {
