@@ -1,6 +1,6 @@
 {
   "name": "jsttojs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file",
   "preferGlobal": "true",
   "main": "index",
@@ -17,14 +17,19 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "keywords": ["jst", "template", "precompile", "compile", "mustache"],
+  "keywords": [
+    "jst", "template", "precompile", "compile", "mustache"
+  ],
   "repository" : {
-      "type": "git",
-      "url": "https://github.com/upwards/jsttojs.git"
+    "type": "git",
+    "url": "https://github.com/upwards/jsttojs.git"
   },
   "dependencies": {
-      "commander": "1.0.x",
-      "walk": "2.2.x"
+    "commander": "1.0.x",
+    "walk": "2.2.x",
+    "fs-watch-tree": "0.2.x"
   },
-  "engines": { "node": ">= 0.6.x" }
+  "engines": {
+    "node": ">= 0.6.x"
+  }
 }
