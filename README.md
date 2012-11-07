@@ -61,7 +61,7 @@ Output:
 ```javascript
 // compiled/templates/index.js
 window.MyGlobalVariable = {
-  "index" : "Hello world {{ username }} second line",
+  "index" : "Hello world {{ username }}\nsecond line",
   "video/index" : "Hello {{ username }} on index video page"
 }
 ```
