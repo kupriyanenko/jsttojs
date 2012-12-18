@@ -2,7 +2,6 @@
   "name": "jsttojs",
   "version": "0.0.3",
   "description": "A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file",
-  "preferGlobal": "true",
   "homepage": "http://upwards.github.com/jsttojs/",
   "main": "index",
   "bin": {
