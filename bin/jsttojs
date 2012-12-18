@@ -1,3 +1,24 @@
 #!/usr/bin/env node
 
-module.exports = require('../lib/jsttojs');
+var options = require('commander')
+  , jsttojs = require('../lib/jsttojs');
+
+// Get options
+options
+  .version('0.0.3')
+  .usage('<input> <output> [options]')
+  .option('-e, --ext <n>', 'extension for templates, default "jst"', 'jst')
+  .option('-n, --name <n>', 'name variable stores temapltes, default "JSTmpl"', 'JSTmpl')
+  .option('-w, --watch', 'watch files and automatic compile output file')
+  .option('-r, --removebreak', 'remove line breaks')
+  .option('-a, --amd', 'wrap templates in AMD module')
+  .parse(process.argv);
+
+if (!process.argv[2] || !process.argv[3]) {
+  options.help();
+}
+
+options.root = process.argv[2].replace(/\/$/, '');
+options.output = process.argv[3];
+
+jsttojs.compile(options);
