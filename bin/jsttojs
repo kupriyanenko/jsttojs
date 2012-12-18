@@ -21,4 +21,6 @@ if (!process.argv[2] || !process.argv[3]) {
 options.root = process.argv[2].replace(/\/$/, '');
 options.output = process.argv[3];
 
-jsttojs.compile(options);
+jsttojs.compile(options, function() {
+  console.log('complete: ' + options.output);
+});
