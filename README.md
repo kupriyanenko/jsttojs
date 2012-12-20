@@ -30,6 +30,8 @@ Options:
   -e, --ext <n>     extension for templates, default "jst"
   -n, --name <n>    name variable stores temapltes, default "JSTmpl"
   -w, --watch       watch files and automatic compile output file
+  -r, --removebreak remove line breaks
+  -a, --amd         wrap templates in AMD module
 
 Examples:
 
