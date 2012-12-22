@@ -4,40 +4,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jsttojs by kupriyanenko</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-
-      <header>
-        <h1>Jsttojs</h1>
-        <p>A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to a single file</p>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/kupriyanenko/jsttojs" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/kupriyanenko/jsttojs/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/kupriyanenko/jsttojs/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
     <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
+      <header>
+        <h1 class="header">Jsttojs</h1>
+        <p class="header">A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to a single file</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/kupriyanenko/jsttojs/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/kupriyanenko/jsttojs/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/kupriyanenko/jsttojs">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/kupriyanenko">kupriyanenko</a></p>
+
+
+      </header>
       <section>
         <h1>jsttojs</h1>
 
@@ -66,6 +57,8 @@ Options:
   -e, --ext &lt;n&gt;     extension for templates, default "jst"
   -n, --name &lt;n&gt;    name variable stores temapltes, default "JSTmpl"
   -w, --watch       watch files and automatic compile output file
+  -r, --removebreak remove line breaks
+  -a, --amd         wrap templates in AMD module
 
 Examples:
 
@@ -106,11 +99,10 @@ Examples:
 <p>jsttojs is released under the MIT license.</p>
       </section>
       <footer>
-        <p>Project maintained by <a href="https://github.com/kupriyanenko">kupriyanenko</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+		
   </body>
 </html>
