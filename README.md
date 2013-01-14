@@ -38,6 +38,14 @@ Examples:
   $ jsttojs templates compiled/templates/index.js --ext mustache --watch
 ```
 
+### Use with grunt ###
+
+Use it with [grunt](http://gruntjs.com/), install [grunt-jsttojs](https://github.com/kupriyanenko/grunt-jsttojs) and add this line to your project's Gruntfile:
+
+```javascript
+grunt.loadNpmTasks('grunt-jsttojs');
+```
+
 Samples
 -----
 
