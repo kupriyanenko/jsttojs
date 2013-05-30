@@ -4,41 +4,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jsttojs by kupriyanenko</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/kupriyanenko/jsttojs">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/kupriyanenko/jsttojs/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/kupriyanenko/jsttojs/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
     <div class="wrapper">
+      <header>
+        <h1>Jsttojs</h1>
+        <p>A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to a single file</p>
 
+        <p class="view"><a href="https://github.com/kupriyanenko/jsttojs">View the Project on GitHub <small>kupriyanenko/jsttojs</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/kupriyanenko/jsttojs/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/kupriyanenko/jsttojs/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/kupriyanenko/jsttojs">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
       <section>
-        <div id="title">
-          <h1>Jsttojs</h1>
-          <p>A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to a single file</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/kupriyanenko">kupriyanenko</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h1>jsttojs</h1>
+        <h1>
+<a name="jsttojs" class="anchor" href="#jsttojs"><span class="octicon octicon-link"></span></a>jsttojs</h1>
 
 <p>A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file.</p>
 
@@ -46,12 +37,14 @@
 
 <p>And if you set the flag --watch, you can compile templates automatically!</p>
 
-<h2>Installation</h2>
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <pre><code>$ npm install jsttojs -g
 </code></pre>
 
-<h2>Usage</h2>
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>jsttojs allows templates to be precompiled and included in javascript code</p>
 
@@ -73,14 +66,16 @@ Examples:
   $ jsttojs templates compiled/templates/index.js --ext mustache --watch
 </code></pre>
 
-<h3>Use with grunt</h3>
+<h3>
+<a name="use-with-grunt" class="anchor" href="#use-with-grunt"><span class="octicon octicon-link"></span></a>Use with grunt</h3>
 
 <p>Use it with <a href="http://gruntjs.com/">grunt</a>, install <a href="https://github.com/kupriyanenko/grunt-jsttojs">grunt-jsttojs</a> and add this line to your project's Gruntfile:</p>
 
 <div class="highlight"><pre><span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">'grunt-jsttojs'</span><span class="p">);</span>
 </pre></div>
 
-<h2>Samples</h2>
+<h2>
+<a name="samples" class="anchor" href="#samples"><span class="octicon octicon-link"></span></a>Samples</h2>
 
 <p>Templates:</p>
 
@@ -107,15 +102,19 @@ Examples:
 <span class="p">}</span>
 </pre></div>
 
-<h2>License</h2>
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>Copyright (c) 2012 Alexey Kupriyanenko <a href="mailto:a.kupriyanenko@gmail.com">a.kupriyanenko@gmail.com</a></p>
 
 <p>jsttojs is released under the MIT license.</p>
       </section>
-
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/kupriyanenko">kupriyanenko</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>
