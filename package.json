@@ -26,10 +26,10 @@
     "url": "https://github.com/kupriyanenko/jsttojs.git"
   },
   "dependencies": {
-    "commander": "1.0.x",
-    "walk": "2.2.x",
-    "moment": "2.2.x",
-    "watch": "0.8.x"
+    "commander": "~1.0.x",
+    "walk": "~2.2.x",
+    "moment": "~2.1.x",
+    "watch": "~0.8.x"
   },
   "engines": {
     "node": ">= 0.6.x"

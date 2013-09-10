@@ -6,7 +6,7 @@ var options = require('commander')
 
 // Get options
 options
-  .version('0.1.1')
+  .version('0.1.2')
   .usage('<input> <output> [options]')
   .option('-e, --ext <n>', 'extension for templates, default "jst"', 'jst')
   .option('-n, --name <n>', 'name variable stores temapltes, default "JSTmpl"', 'JSTmpl')
