@@ -1,6 +1,6 @@
 {
   "name": "jsttojs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file",
   "homepage": "http://upwards.github.com/jsttojs/",
   "main": "index",
@@ -28,7 +28,8 @@
   "dependencies": {
     "commander": "1.0.x",
     "walk": "2.2.x",
-    "fs-watch-tree": "0.2.x"
+    "moment": "2.2.x",
+    "watch": "0.8.x"
   },
   "engines": {
     "node": ">= 0.6.x"

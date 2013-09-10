@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var options = require('commander')
+  , moment = require('moment')
   , jsttojs = require('../lib/jsttojs');
 
 // Get options
@@ -22,5 +23,5 @@ options.root = process.argv[2].replace(/\/$/, '');
 options.output = process.argv[3];
 
 jsttojs.compile(options, function() {
-  console.log('complete: ' + options.output);
+  console.log(moment().format('[[]h:mm:ss YYYY-D-MM[]] ') + 'complete: ' + options.output);
 });
