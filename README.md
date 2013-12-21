@@ -1,6 +1,8 @@
 jsttojs
 =======
 
+[![NPM version](https://badge.fury.io/js/jsttojs.png)](http://badge.fury.io/js/jsttojs)
+
 A node.js module for precompile JavaScript templates (ex. mustache or jQuery.tmpl) to one file.
 
 
