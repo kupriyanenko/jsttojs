@@ -34,6 +34,7 @@ Options:
   -w, --watch       watch files and automatic compile output file
   -r, --removebreak remove line breaks
   -a, --amd         wrap templates in AMD module
+  -o, --onlyname    use as a key only file name, without directory
 
 Examples:
 

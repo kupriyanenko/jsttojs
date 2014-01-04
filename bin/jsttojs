@@ -13,6 +13,7 @@ options
   .option('-w, --watch', 'watch files and automatic compile output file')
   .option('-r, --removebreak', 'remove line breaks')
   .option('-a, --amd', 'wrap templates in AMD module')
+  .option('-o, --onlyname', 'use as a key only file name, without directory')
   .parse(process.argv);
 
 if (!process.argv[2] || !process.argv[3]) {
